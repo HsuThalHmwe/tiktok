@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+
+.main {
+  background-color: black;
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.topBar {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+a {
+  padding-right: 13px;
+  color: white;
+}
+
+.buttonBar {
+  /* background-color: brown; */
+  position: relative;
+  top: 168px;
+  font-style: italic;
+  color: white;
+  display: flex;
+  padding-right: 8px;
+  align-items: center;
+}
+.rightBar {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  bottom: -161px;
+  height: 274px;
+  justify-content: space-evenly;
+  padding-right: 8px;
+}
+
+img {
+  width: 30px;
+  border-radius: 100px;
+}
+.userName {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+  /* background-color: blueviolet; */
+  color: white;
+}
+.userName i {
+  padding: 9px;
+}
+.down {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.down span {
+  font-size: 10px;
+}
+.up {
+  position: relative;
+  bottom: 63px;
+}
