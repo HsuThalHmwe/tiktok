@@ -17,12 +17,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 .topBar {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   display: flex;
   justify-content: center;
   opacity: 0.9;
+  padding-top: 5px;
 }
 
 a {
@@ -56,6 +58,10 @@ img {
   width: 30px;
   border-radius: 100px;
 }
+
+.radius {
+  border-radius: 100%;
+}
 .userName {
   display: flex;
   justify-content: space-evenly;
@@ -77,4 +83,10 @@ img {
 .up {
   position: relative;
   bottom: 63px;
+}
+.video {
+  position: absolute;
+  width: 300px;
+  height: 650px;
+  top: -58px;
 }
